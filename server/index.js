@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const cors = require('cors');
 const fetch = require('node-fetch')
-const openssl = require('openssl-nodejs')
 
 const apiFuncs = require('../api/destinyRoutes.js')
 
