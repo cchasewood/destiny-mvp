@@ -1,7 +1,6 @@
 node_modules
-
+rootCA.key
 .env
-
+.vs
 public/bundle.js
-
 ignore

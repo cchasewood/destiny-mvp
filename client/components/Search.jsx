@@ -1,15 +1,6 @@
 import React from 'react';
 import $ from 'jquery'
 
-const findGuardian = (e) => {
-  e.preventDefault();
-  $.ajax({
-    method: 'POST',
-    url: `http://${window.location.hostname}:5252/search`,
-    data: { displayName: $('#displayName').val() },
-    success: (data) => console.log(data)
-  })
-}
 const searchStyle = {
   width: '100%'
 }
